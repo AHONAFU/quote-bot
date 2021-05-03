@@ -3,6 +3,8 @@ import discord
 
 client = discord.Client()
 
+channel_id = 831879880441331713
+
 @client.event
 async def on_ready():
    print('I have logged in as {0.user}'.format(client))
